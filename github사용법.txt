@@ -1,0 +1,30 @@
+git init
+git remote add origin (repository address)
+	- repository address는 github에서 확인가능
+
+<아래는 Pull 명령어>
+git pull origin master
+	- >> PUSH 전에 <Pull을 먼저 해야함>
+
+<아래는 PUSH명령어>
+git status
+	- git의 상태를 확인
+git add .
+	- git에 내용 추가
+git commit -m "message"
+	- commit을 다는 명령어
+git push origin +master
+	- 실제로 Git에 PUSH
+
+
+git config --global user.name "IamGroooooot"
+git config --global user.email "dury.ko@gmail.com"
+	-> 이름하고 이메일 등록
+
+출처
+>> 설명 동영상
+https://youtu.be/tC8Xj_Bf8Fw
+
+>> 이름하고, 이메일 등록
+https://coding-groot.tistory.com/97
+
